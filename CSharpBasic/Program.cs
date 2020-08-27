@@ -22,6 +22,7 @@ namespace CSharpBasic
             string iAmTired = "i am going to use $ with this string.";
             Console.WriteLine("Cool bro" + myCoolString);
             Console.WriteLine($"{iAmTired}");
+            // commit 2
         }
     }
 }
