@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.ComponentModel.DataAnnotations;
+using CSharpBasic;
 namespace CSharpBasic
 {
     class Program
@@ -8,7 +9,17 @@ namespace CSharpBasic
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            myString();
+            myCharacterClass();
+        }
+        static void myCharacterClass()
+        {
+            CharacterClass bruhNinja = new CharacterClass();
+            CharacterClass mediumNinja = new CharacterClass();
+            CharacterClass lolNinja = new CharacterClass();
+
+            bruhNinja.CharacterName = "ultimate bruh ninja.";
+            Console.WriteLine(bruhNinja.CharacterName);
+
         }
         static void myString()
         {
