@@ -8,8 +8,11 @@ namespace CSharpBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            myCharacterClass();
+            runFlowControl();
+        }
+        static void runFlowControl()
+        {
+            FlowControl.FlowControl.FCIfElse();
         }
         static void myCharacterClass()
         {
